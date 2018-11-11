@@ -1,0 +1,23 @@
+@mixin title {
+	text-transform: uppercase;
+	font-weight: 400;
+	color: $titleColorDark;
+	font-family: "League Gothic";
+}
+
+@mixin titleL {
+	@include title;
+	font-size: 60px;
+}
+
+@mixin titleM {
+	@include title;
+	font-size: 35px;
+}
+
+@mixin titleS {
+	@include title;
+	font-size: 21px;
+}
+
+
